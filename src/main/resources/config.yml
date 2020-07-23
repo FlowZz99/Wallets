@@ -1,0 +1,24 @@
+wallet:
+  title: "&cWallet"
+  size: 9
+
+wallet-item:
+  material: STICK
+  custommodeldata: 9
+
+
+whitelisted-items:
+  1:
+    material: STICK
+    custommodeldata: 1
+  2:
+    material: STICK
+    custommodeldata: 2
+  3:
+    material: PAPER
+    custommodeldata: 0
+
+
+
+Lang:
+  item-not-whitelisted: "&cSorry, you can't store this item in your wallet"
