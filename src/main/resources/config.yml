@@ -21,4 +21,9 @@ whitelisted-items:
 
 
 Lang:
-  item-not-whitelisted: "&cSorry, you can't store this item in your wallet"
+  item-not-whitelisted: "&cSorry, you can't store this item in your wallet."
+  wallet-give: "&cYou gave a wallet correctly."
+  wallet-received: "&cYou received a wallet."
+  playeroffline: "&cThis player is not online."
+  nopermission: "&cYou don't have permission to run this command."
+  command-syntax: "&cPlease use /wallet give <player>"

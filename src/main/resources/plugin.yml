@@ -3,3 +3,7 @@ version: 1.0-BETA
 author: _FlowZz_
 main: it.flowzz.wallets.WalletPlugin
 api-version: 1.13
+commands:
+  wallet:
+    description: Root command for wallet plugin.
+    aliases: [wallets]

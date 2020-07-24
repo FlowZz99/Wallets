@@ -1,5 +1,6 @@
 package it.flowzz.wallets;
 
+import it.flowzz.wallets.commands.WalletCMD;
 import it.flowzz.wallets.listeners.InventoryListener;
 import it.flowzz.wallets.listeners.PlayerListener;
 import lombok.Getter;
@@ -23,6 +24,7 @@ public class WalletPlugin extends JavaPlugin {
         allowedItems = new ArrayList<>();
         new InventoryListener(this);
         new PlayerListener(this);
+        getCommand("wallet").setExecutor(new WalletCMD(this));
         loadWhitelist();
     }
 
